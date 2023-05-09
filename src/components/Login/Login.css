@@ -1,0 +1,67 @@
+.login {
+    background: url(./img/back.svg);
+    height: 638px;
+    margin-top: 30px;
+    background-color: rgba(6, 180, 180, 0.76);
+}
+
+.xard {
+    width: 440px;
+    height: 478px;
+    background: #FFFFFF;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: none;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.ji {
+    padding-top: 48px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+    margin-bottom: 26px;
+    color: #000000;
+}
+
+.inp {
+    width: 314px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1.5px solid #C4C4C4;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.015em;
+    padding-left: 22px;
+    color: #C4C4C4;
+    margin-bottom: 20px;
+}
+
+.btn10 {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    width: 314px;
+    height: 49.86px;
+    background: #DC051F;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.end {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+.fim{
+    margin-top: 84px;
+}

@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import { ChildPage } from './components/Child/Child';
+import { LinkPage } from './components/Links/link';
+import { LoginPage } from './components/Login/Login';
+import { MainPage } from './components/Main/Main';
+import { NavbarPage } from './components/Navbar/Navbar.jsx';
+import { SectionPage } from './components/Section/Section';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavbarPage/>
+      <MainPage />
+      <SectionPage />
+      <ChildPage />
+      <LinkPage />
+      <LoginPage />
+    </>
   );
 }
 
